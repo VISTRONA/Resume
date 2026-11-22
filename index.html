@@ -1,38 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>main</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
 </head>
 <body>
- <h1>Aneesh Padole</h1> 
- <img src="./assets/image/Aneesh.jpeg" alt="Photo of Aneesh Padole" style="width:200px;height:200px;">
-  
- <hr />
- <h2>Education</h2>
- <p><ul>
-    <li>Narayana Vidyalayam Amravati-12th CBSE-82.8%     (2023-2025) </li>
- </ul></p>
- <hr />
- <h2>Awards and Certifications</h2>
- <p><ul>
-    <li>Qulified for national level of CBSE National level competition for Smart Farming project in 2019.</li>
-    <li>Qulified for national level of Inspire Awards Smart Farming project in 2020.</li>
-    <li>Secured 1st Position in "Young Scientist National Level Project Competition" for Smart Farming , organised on 27th January 2020 at Prof. Ram Meghe Institute of Technology and Research, Badnera. <br >
-      <h4>Post by Collage</h4>
-      <a href="./public/Achievement on National Level - 2020 _ Podar News.html">Preserved site   </a> <br>  <a href="https://www.podareducation.org/school/amravati/podarnews/4536">Institute webpage</a>
-    </li> 
-</ul></p> 
-<hr />
-<h2>Other</h2>
+<div class="center">
+<p><span><strong>ANEESH PADOLE</strong></span><br />
+Computer Engineering (Software Engineering) Student • Backend
+Engineering • Systems • APIs<br />
+Pune, Maharashtra, India • +91 7058220978 • <a
+href="mailto:contact@aneeshpadole.com">contact@aneeshpadole.com</a><br />
+<a href="https://github.com/VISTRONA">github.com/VISTRONA</a> • <a
+href="https://linkedin.com/in/aneesh-padole">linkedin.com/in/aneesh-padole</a></p>
+</div>
+<h1 id="education">Education</h1>
+<p><strong>Vishwakarma Institute of Technology (VIT), Pune</strong>
+<strong>2025 – Present</strong><br />
+B.Tech Computer Engineering (Software Engineering) <strong>CGPA:
+9.32</strong></p>
+<h1 id="technical-skills">Technical Skills</h1>
+<p><strong>Languages:</strong> Python, Java, C++, C, JavaScript, SQL,
+Groovy<br />
+<strong>Backend &amp; Frameworks:</strong> FastAPI, Flask, REST APIs,
+Grails, Spring Boot, Node.js, Express<br />
+<strong>Databases &amp; Messaging:</strong> MySQL, SQLite, SQLAlchemy,
+MQTT<br />
+<strong>Systems &amp; Tools:</strong> Linux, Git/GitHub, Docker,
+Postman, Gradle, process monitoring<br />
+<strong>Data/ML:</strong> Pandas, NumPy, scikit-learn</p>
+<h1 id="engineering-projects">Engineering Projects</h1>
+<h2 class="unnumbered"
+id="fluid-controls-rfq-traceability-management-system-2026"> Fluid
+Controls RFQ Traceability Management System <strong>2026</strong> </h2>
+<p><em>Industry Project Flask, SQLAlchemy, SQLite, REST APIs, Docker <a
+href="https://github.com/VISTRONA/fluid-controls-rfq">GitHub</a></em></p>
 <ul>
-    <li><a href="./public/Contact.html">Contact</a></li>  
-    <li> this is a test.</li>
-</ul><hr />
-    <footer>
-    <p>© Aneesh Padole. All rights reserved.</p>
-    <p>vistrona.com and aneeshpadole.com both are domain names owned by Aneesh Padole.</p>
-  </footer>
-  <!-- Hi thank you for see this code -->
+<li><p>Built an industry-facing backend system for managing the complete
+<strong>Request for Quotation (RFQ) lifecycle</strong>, from technical
+review and quotation through negotiation and closure.</p></li>
+<li><p>Implemented <strong>role-based workflows, REST APIs, RFQ
+assignment, status history, SLA monitoring, notifications, audit
+logging, and reporting</strong>.</p></li>
+<li><p>Designed structured Excel import/export workflows for existing
+company data with mapping validation and preservation of historical
+records.</p></li>
+<li><p>Prepared the application for deployment using
+<strong>Docker/Gunicorn</strong> and implemented automated tests
+covering authentication, workflows, imports, notifications, APIs, and
+database upgrades.</p></li>
+</ul>
+<h2 class="unnumbered"
+id="vierp-timetable-automation-platform-2026-present"> VIERP Timetable
+Automation Platform <strong>2026 – Present</strong> </h2>
+<p><em>Backend Lead Java 17, Grails 7, Python, MySQL, REST, Vue.js <a
+href="https://github.com/VISTRONA/vierp-timetable-poc">GitHub</a></em></p>
+<ul>
+<li><p>Served as <strong>Backend Lead</strong> for a proof-of-concept
+designed to automate repetitive timetable entry in an institutional
+ERP.</p></li>
+<li><p>Developed a multi-language orchestration pipeline connecting
+<strong>Excel
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math>
+Grails/Java
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math>
+Python
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math>
+MySQL
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math>
+JSON
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math>
+Vue</strong>.</p></li>
+<li><p>Implemented multipart upload APIs, file validation, timetable
+processing, and REST endpoints for dynamically generated timetable
+data.</p></li>
+<li><p>Designed data replacement and regeneration workflows to validate
+uploaded records, replace outdated timetable data, and generate
+division-specific outputs.</p></li>
+</ul>
+<h2 class="unnumbered"
+id="volttrack-multi-node-energy-monitoring-platform-2026"> VoltTrack —
+Multi-Node Energy Monitoring Platform <strong>2026</strong> </h2>
+<p><em>FastAPI, MQTT, SQLite, ESP32, Chart.js <a
+href="https://github.com/VISTRONA/VoltTrack">GitHub</a></em></p>
+<ul>
+<li><p>Built an event-driven backend using <strong>FastAPI, MQTT, and
+SQLite</strong> for ingesting and persisting real-time telemetry from
+multiple monitoring nodes.</p></li>
+<li><p>Developed REST APIs for billing, historical analysis, node
+comparison, event tracking, and consumption analytics.</p></li>
+<li><p>Implemented <strong>bidirectional MQTT communication</strong> for
+remote load control and integrated real-time telemetry with a web
+dashboard.</p></li>
+<li><p>Explored anomaly detection for identifying unusual
+energy-consumption behaviour from collected telemetry.</p></li>
+</ul>
+<h2 class="unnumbered" id="scorm-authoring-tool-2026-present"> SCORM
+Authoring Tool <strong>2026 – Present</strong> </h2>
+<p><em>Industry Project SCORM, JSON Schema, LMS Integration <a
+href="https://github.com/VISTRONA/SCORM-tool">GitHub</a></em></p>
+<ul>
+<li><p>Own the <strong>SCORM integration and packaging
+subsystem</strong> for an internal course-authoring platform, including
+package structure, manifests, learner tracking, and LMS integration
+requirements.</p></li>
+<li><p>Helped define a shared versioned <strong>Course JSON
+schema</strong> forming the interface between independently developed
+system components.</p></li>
+<li><p>Coordinate integration boundaries across a <strong>six-member
+development team</strong> to enable parallel subsystem
+development.</p></li>
+</ul>
+<h2 class="unnumbered"
+id="jaldrishti-ai-smart-water-distribution-monitoring-system-2025-2026">
+JalDrishti AI — Smart Water Distribution Monitoring System <strong>2025
+– 2026</strong> </h2>
+<p><em>Decode SIH 2026 Finalist FastAPI, React, MQTT, ESP32, EPANET <a
+href="https://github.com/Diya12-dev/jaldrishti-ai">GitHub</a></em></p>
+<ul>
+<li><p>Built an integrated monitoring platform combining sensor
+telemetry, leak detection, hydraulic simulation, backend services, and a
+real-time dashboard.</p></li>
+<li><p>Developed MQTT-to-FastAPI integration for real-time water-quality
+telemetry from distributed monitoring nodes.</p></li>
+<li><p>Selected as a <strong>Decode SIH 2026 Finalist</strong> and
+presented the working system before technical juries at the Bengaluru
+Grand Finale.</p></li>
+</ul>
+<h1 id="research-projects">Research Projects</h1>
+<h2 class="unnumbered"
+id="ccme-based-water-quality-classification-jaldrishti-ai-extension-2025-present">CCME-Based
+Water Quality Classification (JalDrishti AI Extension) <strong>2025 –
+Present</strong></h2>
+<p><em>Research under Prof. Kiran Prabhakar More, VIT Pune</em></p>
+<ul>
+<li><p>Developing a reproducible ML framework for classifying
+CCME-derived water-quality categories across approximately <strong>2.8
+million cleaned observations</strong>.</p></li>
+<li><p>Evaluating temporal, geographic, and grouped validation
+strategies, feature behaviour, and model robustness; manuscript
+preparation is ongoing.</p></li>
+</ul>
+<h2 class="unnumbered"
+id="physiological-monitoring-recommendation-engine-2026-present">Physiological
+Monitoring Recommendation Engine <strong>2026 – Present</strong></h2>
+<p><em>Research under Prof. Pranali Gajanan Chavhan, VIT Pune</em></p>
+<ul>
+<li><p>Developing snapshot and continuous inference workflows for
+generating contextual recommendations from physiological measurements
+and participant-specific baselines.</p></li>
+<li><p>Building and evaluating a Python-based inference pipeline using
+physiological, activity, and temporal features; manuscript preparation
+is ongoing.</p></li>
+</ul>
+<h1 id="leadership-communication">Leadership &amp; Communication</h1>
+<ul>
+<li><p><strong>Technical Communication:</strong> Presented working
+systems to faculty, industry stakeholders, and technical juries through
+live demonstrations, technical discussions, and Q&amp;A.</p></li>
+<li><p><strong>Hackathon Planning &amp; Industry Outreach:</strong>
+Serving as a student planner for a college hackathon under faculty
+guidance, contributing to event planning and discussions with potential
+industry partners and sponsors.</p></li>
+</ul>
 </body>
 </html>
